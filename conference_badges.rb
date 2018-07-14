@@ -12,3 +12,4 @@ def batch_badge_creator(attendees)
     return "Hello, my name is #{name}."
   badges
  end 
+end
