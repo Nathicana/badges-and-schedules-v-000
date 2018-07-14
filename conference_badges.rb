@@ -12,5 +12,9 @@ badges
  end 
 
 def assign_rooms(speakers)
+  counter = 0
+  speakers.each do |speaker|
+    
+  
   
 end
