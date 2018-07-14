@@ -15,7 +15,13 @@ def assign_rooms(speakers)
   counter = 0
   speakers.each do |speaker|
     
+    counter += 1
   
   
 end
 
+count = 0
+while count <= brothers.length-1
+ puts "Stop hitting yourself #{brothers[count]}!"
+ count += 1
+End
