@@ -13,10 +13,10 @@ badges
 
 def assign_rooms(speakers)
   room_assignments = []
-  counter = 1
+  
   
   speakers.each_with_index {|speaker, index| room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index}!"}
-    counter += 1
+   
     room_assignments
    
   end
