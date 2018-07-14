@@ -19,5 +19,6 @@ def assign_rooms(speakers)
 
 def printer(attendees)
  attendees.each_with_index {|name| puts "Hello, my name is #{name}."}
+ attendees.each 
   end
 
