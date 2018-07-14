@@ -28,4 +28,4 @@ batch_badge_creator(attendees).each do |badges|
    
   end
 
-
+end
