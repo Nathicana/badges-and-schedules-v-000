@@ -13,12 +13,11 @@ badges
 
 def assign_rooms(speakers)
   room_assignments = []
-  
-  
   speakers.each_with_index {|speaker, index| room_assignments << "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"}
-   
-    room_assignments
-   
-  end
+   room_assignments
+   end
 
+def printer
+  
+end
 
