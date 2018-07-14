@@ -18,7 +18,13 @@ def assign_rooms(speakers)
    end
 
 def printer(attendees)
- attendees.each_with_index {|name| puts "Hello, my name is #{name}."}
- attendees.each_with_index {|speaker, index| "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"}
+ def printer(attendees)
+ puts batch_badge_creator(attendees)
+ assign_rooms(speakers).each do |room_assignments|
+   puts room_assignments
+   
+  
+end
+end
   end
 
