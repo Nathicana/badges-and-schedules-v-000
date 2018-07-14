@@ -19,6 +19,6 @@ def assign_rooms(speakers)
 
 def printer(attendees)
  attendees.each_with_index {|name| puts "Hello, my name is #{name}."}
- attendees.each {|name| puts "Hello, my name is #{name}."}
+ attendees.each_with_index {|speaker, index| "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"}
   end
 
