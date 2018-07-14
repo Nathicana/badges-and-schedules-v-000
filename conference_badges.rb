@@ -14,14 +14,8 @@ badges
 def assign_rooms(speakers)
   counter = 0
   speakers.each do |speaker|
-    
+    puts "Hello, #{speaker}! You'll be assigned to room #{counter}!"
     counter += 1
-  
-  
-end
+  end
 
-count = 0
-while count <= brothers.length-1
- puts "Stop hitting yourself #{brothers[count]}!"
- count += 1
-End
+
