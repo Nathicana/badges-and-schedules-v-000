@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   counter = 1
   
   speakers.each_with_index {|speaker| room_assignments << "Hello, #{speaker}! You'll be assigned to room #{counter}!"}
-    counter += 1
+    counter + 1
     room_assignments
    
   end
